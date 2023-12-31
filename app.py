@@ -15,7 +15,7 @@ st.sidebar.markdown("<h3 style='text-align: left; color: white;'>A simple web ap
 st.sidebar.markdown("<h4 style='text-align: left; color: Green;'>Made by Prateek Verma</h4>", unsafe_allow_html=True)
 st.sidebar.markdown("<h4 style='text-align: left; color: white;'>Github:<a href='https://github.com/prateekverma145'>prateekverma145</a></h4>", unsafe_allow_html=True)
 st.sidebar.markdown("<h4 style='text-align: left; color: white;'>LinkedIn:<a href='https://www.linkedin.com/in/prateek-verma-2a202b287'>prateek-verma</a></h4>", unsafe_allow_html=True)
-st.sidebar.markdown("<h4 style='text-align: left; color: white;'>Dataset:<a href='https://www.kaggle.com/datasets/hellbuoy/car-price-prediction'>prateekverma14</a></h4>", unsafe_allow_html=True)
+st.sidebar.markdown("<h4 style='text-align: left; color: white;'>Dataset:<a href='https://www.kaggle.com/datasets/CooperUnion/anime-recommendations-database'>prateekverma14</a></h4>", unsafe_allow_html=True)
 def recommend(anime):
     res=[]
     anime_index=pop_anime[pop_anime['name']==anime].index[0]
