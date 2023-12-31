@@ -1,3 +1,4 @@
+import bz2file as bz2
 import pickle 
 import streamlit as st 
 import pandas as pd
@@ -5,7 +6,8 @@ import numpy as np
 import test
 
 pop_anime=pd.read_csv('pop_anime.csv')
-similarity=pickle.load(open('sim.sav','rb'))
+with bz2.BZ2File('ss.pbz2','r') as f:
+    similarity=pickle.load(f)
 names=pop_anime['name'].values
 dictt=pickle.load(open('dict.sav','rb'))   
 
