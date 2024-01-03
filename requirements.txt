@@ -11,7 +11,8 @@ scikit-learn==1.3.2
 seaborn==0.13.0
 selenium==4.15.2
 soupsieve==2.5
-streamlit
+streamlit==1.29.0
 webdriver-manager==4.0.1
-bz2file
+bz2file==0.98
 pickle5
+msedge-selenium-tools==3.141.3
