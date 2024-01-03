@@ -1,7 +1,6 @@
 ﻿beautifulsoup4==4.12.2
 bottle-websocket==0.2.9
 charset-normalizer==3.2.0
-chromedriver-binary==121.0.6156.2.0
 matplotlib==3.8.2
 matplotlib-inline==0.1.6
 numpy==1.25.2
@@ -15,4 +14,3 @@ streamlit==1.29.0
 webdriver-manager==4.0.1
 bz2file==0.98
 pickle5
-msedge-selenium-tools==3.141.3
